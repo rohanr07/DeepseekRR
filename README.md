@@ -16,7 +16,7 @@ Once the extension is active:
 	•	Type DeepSeekRR: Run Model and press Enter.
 	•	The model will process the input and display the output within VS Code.
 
-**Configuration**
+## Configuration
 
 DeepSeekRR offers several settings to customize its behavior:
 	•	Model Path: Specify the local path to the Ollama 32B model.
@@ -27,7 +27,7 @@ To modify these settings:
 	2.	Search for DeepSeekRR.
 	3.	Update the settings as desired.
 
-**Requirements**
+## Requirements
 
 Before using DeepSeekRR, ensure you have the following:
 	•	Visual Studio Code: Version 1.60.0 or later.

@@ -1,71 +1,40 @@
-# deepseekrr README
+# DeepSeekRR: Run Ollama's 32B Parameter Model Locally in VS Code
 
-This is the README for your extension "deepseekrr". After writing up a brief description, we recommend including the following sections.
+Welcome to **DeepSeekRR**, a Visual Studio Code extension that enables you to run Ollama's 32-billion parameter model directly within your VS Code environment. This extension facilitates seamless integration of advanced AI capabilities into your coding workflow.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Local Model Execution**: Leverage the power of Ollama's 32B parameter model without the need for external cloud services.
+- **Seamless VS Code Integration**: Interact with the model directly from the VS Code interface, enhancing your development experience.
+- **Customizable Settings**: Tailor the extension's behavior to suit your preferences through configurable options.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+Once the extension is active:
+	•	Running the Model:
+	•	Open the command palette (Ctrl+Shift+P or Cmd+Shift+P on Mac).
+	•	Type DeepSeekRR: Run Model and press Enter.
+	•	The model will process the input and display the output within VS Code.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+**Configuration**
 
-## Requirements
+DeepSeekRR offers several settings to customize its behavior:
+	•	Model Path: Specify the local path to the Ollama 32B model.
+	•	Execution Parameters: Adjust parameters such as batch size and processing threads.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To modify these settings:
+	1.	Go to File > Preferences > Settings.
+	2.	Search for DeepSeekRR.
+	3.	Update the settings as desired.
 
-## Extension Settings
+**Requirements**
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Before using DeepSeekRR, ensure you have the following:
+	•	Visual Studio Code: Version 1.60.0 or later.
+	•	Node.js: Version 14.x or later.
+	•	Ollama 32B Model: Ensure the model is downloaded and accessible on your local machine.
 
-For example:
+Note: For detailed information, please refer to the project’s source code and documentation, found here : https://api-docs.deepseek.com
 
-This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Thanks 🤓

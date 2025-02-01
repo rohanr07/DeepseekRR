@@ -1,4 +1,4 @@
-# DeepSeekRR: Run Ollama's 32B Parameter Model Locally in VS Code
+# DeepseekRR: Run DeepSeek 32B Parameter Model Locally
 
 Welcome to **DeepSeekRR**, a Visual Studio Code extension that enables you to run Ollama's 32-billion parameter model directly within your VS Code environment. This extension facilitates seamless integration of advanced AI capabilities into your coding workflow.
 
